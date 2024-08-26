@@ -335,6 +335,9 @@ img {
   float: left;
   width: 100%;
 }
+.navbar{
+  min-height: 80px !important;
+}
 #mu-slider .mu-slider-single {
   display: inline;
   float: left;
