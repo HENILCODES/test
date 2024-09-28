@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">    
-    <title>Varsity | Contact</title>
+    <title>Varsity | Course Detail</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
@@ -18,7 +18,7 @@
     <!-- Fancybox slider -->
     <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="screen" /> 
     <!-- Theme color -->
-    <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">    
+    <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">
 
     <!-- Main style sheet -->
     <link href="assets/css/style.css" rel="stylesheet">    
@@ -38,13 +38,10 @@
 
   </head>
   <body>
-  
-  <!--START SCROLL TOP BUTTON -->
     <a class="scrollToTop" href="#">
       <i class="fa fa-angle-up"></i>      
     </a>
   <!-- END SCROLL TOP BUTTON -->
-
 
   <!-- Start header  -->
   <header id="mu-header">
@@ -107,7 +104,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
-            <li class="active"><a href="index.html">Home</a></li>            
+            <li class=""><a href="index.html">Home</a></li>            
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="fa fa-angle-down"></span></a>
               <ul class="dropdown-menu" role="menu">
@@ -139,11 +136,11 @@
                 <li><a href="blog-single.html">Infrastructure</a></li>                
               </ul>
             </li>
-            <li class="dropdown">
+            <li class="dropdown active">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses<span class="fa fa-angle-down"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="blog-archive.html">MCA</a></li>                
-                <li><a href="blog-single.html">MBA</a></li>                
+                <li class="active"><a href="course-detail1.html" class="active">MCA</a></li>                
+                <li><a href="course-detail1.html">MBA</a></li>                
               </ul>
             </li>
             <li><a href="committe.html">Committee</a></li>
@@ -154,6 +151,7 @@
       </div>     
     </nav>
   </section>
+  <!-- End menu -->
   <!-- Start search box -->
   <div id="mu-search">
     <div class="mu-search-area">      
@@ -162,7 +160,7 @@
         <div class="row">
           <div class="col-md-12">            
             <form class="mu-search-form">
-             <input type="search" placeholder="Type Your Keyword(s) & Hit Enter">
+              <input type="search" placeholder="Type Your Keyword(s) & Hit Enter">
             </form>
           </div>
         </div>
@@ -176,10 +174,10 @@
      <div class="row">
        <div class="col-md-12">
          <div class="mu-page-breadcrumb-area">
-           <h2>Contact</h2>
+           <h2>MCA</h2>
            <ol class="breadcrumb">
             <li><a href="#">Home</a></li>            
-            <li class="active">Contact</li>
+            <li class="active">Course </li>
           </ol>
          </div>
        </div>
@@ -187,62 +185,194 @@
    </div>
  </section>
  <!-- End breadcrumb -->
-
- <!-- Start contact  -->
- <section id="mu-contact">
+ <section id="mu-course-content">
    <div class="container">
      <div class="row">
        <div class="col-md-12">
-         <div class="mu-contact-area">
-          <!-- start title -->
-          <div class="mu-title">
-            <h2>Get in Touch</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores ut laboriosam corporis doloribus, officia, accusamus illo nam tempore totam alias!</p>
-          </div>
-          <!-- end title -->
-          <!-- start contact content -->
-          <div class="mu-contact-content">           
+         <div class="mu-course-content-area">
             <div class="row">
-              <div class="col-md-6">
-                <div class="mu-contact-left">
-                  <form class="contactform">                  
-                    <p class="comment-form-author">
-                      <label for="author">Name <span class="required">*</span></label>
-                      <input type="text" required="required" size="30" value="" name="author">
-                    </p>
-                    <p class="comment-form-email">
-                      <label for="email">Email <span class="required">*</span></label>
-                      <input type="email" required="required" aria-required="true" value="" name="email">
-                    </p>
-                    <p class="comment-form-url">
-                      <label for="subject">Subject</label>
-                      <input type="text" name="subject">  
-                    </p>
-                    <p class="comment-form-comment">
-                      <label for="comment">Message</label>
-                      <textarea required="required" aria-required="true" rows="8" cols="45" name="comment"></textarea>
-                    </p>                
-                    <p class="form-submit">
-                      <input type="submit" value="Send Message" class="mu-post-btn" name="submit">
-                    </p>        
-                  </form>
+              <div class="col-md-9">
+                <!-- start course content container -->
+                <div class="mu-course-container mu-course-details">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="mu-latest-course-single">
+                        <figure class="mu-latest-course-img">
+                          <a href="#"><img src="assets/img/courses/1.jpg" alt="img"></a>
+                          <figcaption class="mu-latest-course-imgcaption">
+                            <a href="#">Drawing</a>
+                            <span><i class="fa fa-clock-o"></i>90Days</span>
+                          </figcaption>
+                        </figure>
+                        <div class="mu-latest-course-single-content">
+                          <h2><a href="#">Lorem ipsum dolor sit amet.</a></h2>
+                          <h4>Course Information</h4>
+                          <ul>
+                            <li> <span>Course Price</span> <span>$250</span></li>
+                            <li> <span>Place</span> <span>California,USA</span></li>
+                            <li> <span>Total Students</span> <span>800+</span></li>
+                            <li> <span>Course Duration</span> <span>4 Weeks</span></li>
+                            <li> <span>Course Start</span> <span>July 25, 2016</span></li>
+                          </ul>
+                          <h4>Description</h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quod nisi quisquam modi dolore, dicta obcaecati architecto quidem ullam quia.</p>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo est itaque vero porro quasi illo ex consequuntur ad animi commodi, ipsam provident voluptas vel adipisci. Minima repellendus vel est, sequi labore quo ipsa voluptatem officiis ex fuga nemo quas. Eligendi inventore ducimus omnis, maxime, alias accusantium similique minus! Labore facilis qui, sunt, ipsam consectetur minus sapiente saepe numquam magnam quidem.</p>
+                          <blockquote>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, placeat, ipsa. Modi sed quibusdam vel autem fugit, eaque, iste. Excepturi fugit dignissimos suscipit dolor perferendis debitis magni sed, quia ab.</p>
+                          </blockquote>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ea consequatur doloremque deleniti error ullam, accusamus vel est alias, sit. Similique voluptas aliquid, excepturi accusamus, sequi ducimus incidunt mollitia non.</p>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi saepe possimus doloribus quod quibusdam officia suscipit qui illum nemo itaque, porro ipsam tempore enim error eius quia, culpa. Reprehenderit consequuntur voluptatem dolorum magni natus inventore molestias veritatis eos aspernatur repudiandae.</p>
+                          <h4>Course Outline</h4>
+                          <div class="table-responsive">
+                            <table class="table">
+                            <thead>
+                              <tr>
+                                <th> Title </th>
+                                <th> Course Time </th>
+                                <th> Spent Time </th>
+                                <th> Status </th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td> 1. Topic 1 </td>
+                                <td> 15:30 </td>
+                                <td> 13:80 </td>
+                                <td> Successful </td>
+                              </tr>
+                              <tr>
+                                <td> 2. Topic 2 </td>
+                                <td> 15:30 </td>
+                                <td> 13:80 </td>
+                                <td> Successful </td>
+                              </tr>
+                              <tr>
+                                <td> 3. Topic 3 </td>
+                                <td> 15:30 </td>
+                                <td> - </td>
+                                <td> Successful </td>
+                              </tr>
+                              <tr>
+                                <td> 4. Topic 4 </td>
+                                <td> 15:30 </td>
+                                <td> 13:80 </td>
+                                <td> Successful </td>
+                              </tr>
+                              <tr>
+                                <td> 5. Topic 5 </td>
+                                <td> 15:30 </td>
+                                <td> - </td>
+                                <td> Waiting </td>
+                              </tr>
+                              <tr>
+                                <td> 6. Topic 6 </td>
+                                <td> 15:30 </td>
+                                <td> 13:80 </td>
+                                <td> - </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          </div>
+                        </div>
+                      </div> 
+                    </div>                                   
+                  </div>
                 </div>
+                <!-- end course content container -->
               </div>
-              <div class="col-md-6">
-                <div class="mu-contact-right">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d6249.345033302234!2d-80.02791918555701!3d40.45935344513505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x8834f411a7b748bd%3A0xaec8197db3de9a9e!2sCalifornia-Kirkbride%2C+Pittsburgh%2C+PA%2C+USA!3m2!1d40.4600435!2d-80.0213538!5e0!3m2!1sen!2sbd!4v1464270878470" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- end contact content -->
+              <div class="col-md-3">
+                <!-- start sidebar -->
+                <aside class="mu-sidebar">
+                  <!-- start single sidebar -->
+                  <div class="mu-single-sidebar">
+                    <h3>Categories</h3>
+                    <ul class="mu-sidebar-catg">
+                      <li><a href="#">Web Design</a></li>
+                      <li><a href="">Web Development</a></li>
+                      <li><a href="">Math</a></li>
+                      <li><a href="">Physics</a></li>
+                      <li><a href="">Camestry</a></li>
+                      <li><a href="">English</a></li>
+                    </ul>
+                  </div>
+                  <!-- end single sidebar -->
+                  <!-- start single sidebar -->
+                  <div class="mu-single-sidebar">
+                    <h3>Popular Course</h3>
+                    <div class="mu-sidebar-popular-courses">
+                      <div class="media">
+                        <div class="media-left">
+                          <a href="#">
+                            <img class="media-object" src="assets/img/courses/1.jpg" alt="img">
+                          </a>
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading"><a href="#">Medical Science</a></h4>                      
+                          <span class="popular-course-price">$200.00</span>
+                        </div>
+                      </div>
+                      <div class="media">
+                        <div class="media-left">
+                          <a href="#">
+                            <img class="media-object" src="assets/img/courses/2.jpg" alt="img">
+                          </a>
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading"><a href="#">Web Design</a></h4>                      
+                          <span class="popular-course-price">$250.00</span>
+                        </div>
+                      </div>
+                      <div class="media">
+                        <div class="media-left">
+                          <a href="#">
+                            <img class="media-object" src="assets/img/courses/3.jpg" alt="img">
+                          </a>
+                        </div>
+                        <div class="media-body">
+                          <h4 class="media-heading"><a href="#">Health & Sports</a></h4>                      
+                          <span class="popular-course-price">$90.00</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end single sidebar -->
+                  <!-- start single sidebar -->
+                  <div class="mu-single-sidebar">
+                    <h3>Archives</h3>
+                    <ul class="mu-sidebar-catg mu-sidebar-archives">
+                      <li><a href="#">May <span>(25)</span></a></li>
+                      <li><a href="">June <span>(35)</span></a></li>
+                      <li><a href="">July <span>(20)</span></a></li>
+                      <li><a href="">August <span>(125)</span></a></li>
+                      <li><a href="">September <span>(45)</span></a></li>
+                      <li><a href="">October <span>(85)</span></a></li>
+                    </ul>
+                  </div>
+                  <!-- end single sidebar -->
+                  <!-- start single sidebar -->
+                  <div class="mu-single-sidebar">
+                    <h3>Tags Cloud</h3>
+                    <div class="tag-cloud">
+                      <a href="#">Health</a>
+                      <a href="#">Science</a>
+                      <a href="#">Sports</a>
+                      <a href="#">Mathematics</a>
+                      <a href="#">Web Design</a>
+                      <a href="#">Admission</a>
+                      <a href="#">History</a>
+                      <a href="#">Environment</a>
+                    </div>
+                  </div>
+                  <!-- end single sidebar -->
+                </aside>
+                <!-- / end sidebar -->
+             </div>
+           </div>
          </div>
        </div>
      </div>
    </div>
  </section>
- <!-- End contact  -->
- 
 
   <!-- Start footer -->
   <footer id="mu-footer">
