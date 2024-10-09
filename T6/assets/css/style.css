@@ -724,6 +724,7 @@ img {
 }
 .mu-latest-course-single .mu-latest-course-img a img {
   width: 100%;
+  height: 260px;
 }
 .mu-latest-course-single .mu-latest-course-img .mu-latest-course-imgcaption {
   background-color: #f8f8f8;
@@ -1048,6 +1049,7 @@ img {
 }
 .mu-blog-single-item .mu-blog-single-img a img {
   width: 100%;
+  height: 280px;
 }
 .mu-blog-single-item .mu-blog-single-img .mu-blog-caption {
   display: inline;
