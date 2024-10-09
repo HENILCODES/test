@@ -1,37 +1,3 @@
-/*
-  Template Name: Varsity
-  Author : MarkUps
-  Author URI: http://www.markups.io/
-  Version: 1.0
-  Tags: light, white, education, online education, school, college, university multi page, custom-colors, Bootstrap, responsive, html5, css3, Sass, template, web template
-
-*/
-
-
-/* Table of Content
-==================================================
-#BASIC TYPOGRAPHY
-#HEADER SECTION
-#NAVBAR SECTION
-#SLIDER SECTION
-#SERVICE SECTION
-#ABOUT US SECTION
-#COUNTER SECTION
-#FEATURES SECTION
-#LATEST COURSES SECTION
-#TEACHER SECTION
-#TESTIMONIAL SECTION
-#FROM BLOG SECTION
-# COURSES PAGE
-#BLOG PAGE
-#GALLERY PAGE
-#CONTACT PAGE
-#ERROR  PAGE
-#FOOTER SECTION
-#RESPONSIVE DESIGN
-*/
-
-/* BASE - Base tyles, Variables, Mixins, etc. */
 body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
@@ -724,6 +690,8 @@ img {
 }
 .mu-latest-course-single .mu-latest-course-img a img {
   width: 100%;
+}
+.mu-latest-course-single .mu-latest-course-img a .fixImage {
   height: 260px;
 }
 .mu-latest-course-single .mu-latest-course-img .mu-latest-course-imgcaption {
@@ -840,6 +808,9 @@ img {
 }
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single .mu-our-teacher-img img {
   width: 100%;
+}
+#mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single .mu-our-teacher-img .fixImage {
+  height: 390px;
 }
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single .mu-our-teacher-img .mu-our-teacher-social {
   bottom: 0;
@@ -1049,6 +1020,9 @@ img {
 }
 .mu-blog-single-item .mu-blog-single-img a img {
   width: 100%;
+}
+
+.mu-blog-single-item .mu-blog-single-img a .fixImage {
   height: 280px;
 }
 .mu-blog-single-item .mu-blog-single-img .mu-blog-caption {
@@ -2292,7 +2266,7 @@ img {
   }
 }
 @media (max-width: 640px) {
-  #mu-header .mu-header-area .mu-header-top-left .mu-top-phone {
+  #mu-header .mu-header-area .mu-header-top-left .mu-top-email {
     display: none;
   }
 
